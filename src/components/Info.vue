@@ -10,7 +10,7 @@
         >NZXT has more than 12 years of experience developing award winning, high-quality PC components. By using the very best components, assembled by highly-trained builders, we can deliver a meticulously crafted gaming PC, backed by a comprehensive 2-year warranty.</p>
         <a class="info__btn btn text-uppercase mt-4" href="#">Learn more</a>
       </div>
-      <div class="info__img col-lg-6 col-md-12 text-center mt-sm-5">
+      <div class="info__img col-lg-6 col-md-12 text-center">
         <img class="img-fluid" src="../assets/footer-pc.png" alt>
       </div>
     </div>
@@ -40,8 +40,8 @@ export default {
   }
 
   &__img {
-    img {
-      // height: 100%;
+    @media only screen and (max-width: 1000px) {
+      margin-top: 7rem;
     }
   }
 
